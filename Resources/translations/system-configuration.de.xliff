@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" target-language="de" datatype="plaintext" original="system-configuration.en.xliff">
+        <body>
+            <trans-unit id="github_api">
+                <source>github_api</source>
+                <target>Git API</target>
+            </trans-unit>
+            <trans-unit id="label.github_api.base_url">
+                <source>label.github_api.base_url</source>
+                <target>Git API URL</target>
+            </trans-unit>
+            <trans-unit id="label.github_api.api_version">
+                <source>label.github_api.api_version</source>
+                <target>API Version</target>
+            </trans-unit>
+            <trans-unit id="label.github_api.authentication.type">
+                <source>label.github_api.authentication.type</source>
+                <target>Authentifizierungsmethode</target>
+            </trans-unit>
+            <trans-unit id="label.github_api.authentication.token">
+                <source>label.github_api.authentication.token</source>
+                <target>Token</target>
+            </trans-unit>
+            <trans-unit id="label.github_api.authentication.client_id">
+                <source>label.github_api.authentication.client_id</source>
+                <target>Client ID</target>
+            </trans-unit>
+            <trans-unit id="label.github_api.authentication.client_secret">
+                <source>label.github_api.authentication.client_secret</source>
+                <target>Client Secret</target>
+            </trans-unit>
+            <trans-unit id="label.github_api.authentication.username">
+                <source>label.github_api.authentication.username</source>
+                <target>Benutzername / E-Mail</target>
+            </trans-unit>
+            <trans-unit id="label.github_api.authentication.password">
+                <source>label.github_api.authentication.password</source>
+                <target>Passwort</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

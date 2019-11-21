@@ -1,0 +1,15 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: false
+    KimaiPlugin\GithubApiBundle\:
+        resource: '../../*'
+    KimaiPlugin\GithubApiBundle\Controller:
+    Github\Client:
+        arguments: [null, "@=container.getParameter('kimai.bundles.config')['github_api']['api_version']", "@=container.getParameter('kimai.bundles.config')['github_api']['base_url']"]
+    github.httpclient.builder:
+        class: Github\HttpClient\Builder
+    KimaiPlugin\GithubApiBundle\Configuration\GithubApiConfiguration:
+        arguments:
+            $settings: "@=container.getParameter('kimai.bundles.config')['github_api']['base_url']"
