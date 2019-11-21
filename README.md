@@ -26,20 +26,6 @@ You could also [download it as zip](https://github.com/Bjoern3003/github-api-bun
 |   └ ... more files and directories follow here ... 
 ```
 
-Now register the bundle:
-
-```php
-<?php
-// config/bundles.php
-public function registerBundles()
-{
-    return = [
-        // ...
-        KimaiPlugin\GithubApiBundle\GithubApiBundle::class => ['all' => true],
-    ];
-    // ...
-}
-```
 
 ## Configuration
 
