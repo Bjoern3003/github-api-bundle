@@ -19,6 +19,7 @@
     "symfony/http-kernel": ">4.0",
     "symfony/dependency-injection": ">4.0",
     "symfony/config": ">4.1",
+    "php-http/guzzle6-adapter": "~2.0"
     "knplabs/github-api": "~2.12.1"
   },
   "require-dev": {
